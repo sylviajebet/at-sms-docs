@@ -1,35 +1,39 @@
 {
-    "docsPath": "docs",
-    "site": {
-      "title": "Africa's Talking Bulk SMS Docs",
-      "description": "Guide to building an SMS app for thank-you messages using Africa's Talking API"
+  "name": "Africa's Talking Bulk SMS Docs",
+  "favicon": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Africas_Talking_logo.svg/1200px-Africas_Talking_logo.svg.png",
+  "colors": {
+    "primary": {
+      "light": "#F8A92B",
+      "dark": "#C67100"
     },
-    "name": "Africa's Talking Bulk SMS Docs",
-    "favicon": "/favicon.ico",
-    "colors": {
-      "accent": "#F29100",
+    "sidebar": {
       "background": "#ffffff",
       "text": "#1a1a1a"
     },
-    "navigation": [
-      {
-        "title": "Introduction",
-        "page": "index.mdx"
-      },
-      {
-        "title": "Setup",
-        "page": "setup.mdx"
-      },
-      {
-        "title": "Send Thank You",
-        "page": "send-thank-you.mdx"
-      },
-      {
-        "title": "Troubleshooting",
-        "page": "troubleshooting.mdx"
-      }
-    ]
-    
-    
-  }
-  
+    "text": {
+      "primary": "#1a1a1a",
+      "secondary": "#555555"
+    }
+  },
+  "navigation": [
+    {
+      "group": "Getting Started",
+      "pages": [
+        { "title": "Introduction", "path": "index.mdx" },
+        { "title": "Setup", "path": "setup.mdx" }
+      ]
+    },
+    {
+      "group": "Use Cases",
+      "pages": [
+        { "title": "Send Thank You", "path": "send-thank-you.mdx" }
+      ]
+    },
+    {
+      "group": "Support",
+      "pages": [
+        { "title": "Troubleshooting", "path": "troubleshooting.mdx" }
+      ]
+    }
+  ]
+}
