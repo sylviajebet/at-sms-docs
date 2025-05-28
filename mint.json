@@ -1,7 +1,7 @@
 {
+  "name": "Africa's Talking SMS Docs",
+  "favicon": "https://upload.wikimedia.org/wikipedia/commons/4/4f/Africas_Talking_logo.svg",
   "docsPath": "docs",
-  "name": "Africa's Talking Bulk SMS Docs",
-  "favicon": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Africas_Talking_logo.svg/1200px-Africas_Talking_logo.svg.png",
   "colors": {
     "primary": "#F29100"
   },
